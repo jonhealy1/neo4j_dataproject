@@ -1,0 +1,48 @@
+.background {
+    fill: #eee;
+}
+
+line {
+    stroke: #fff;
+}
+
+text.active {
+    fill: red;
+}
+
+/* Copyright 2013 Michael Bostock. All rights reserved. Do not copy. */
+
+
+
+
+svg {
+    font: 10px sans-serif;
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+sup, sub {
+    line-height: 0;
+}
+
+q:before {
+    content: "“";
+}
+
+q:after {
+    content: "”";
+}
+
+blockquote q {
+    line-height: 1.5em;
+    display: inline;
+}
+
+blockquote q:before,
+blockquote q:after {
+    content: "";
+}
